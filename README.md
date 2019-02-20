@@ -8,10 +8,12 @@ Since Windows refuses to have a default command line editor you can use this via
 .EXAMPLE
 
  $object = multi-line | ConvertFrom-Csv
- id,name
- 1,sky
- 2,tree
- 3,bat
+
+#these are supposed to be on seperate lines but github isn't being nice
+id,name
+1,sky
+2,tree
+3,bat
  
  $object
 
